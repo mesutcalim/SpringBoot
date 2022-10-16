@@ -1,10 +1,11 @@
 # SpringBoot
--Java 19
--SpringBoot
--Spring MVC
--Spring Data
--Spring Security
--Spring Rest
+
+- Java 19
+- SpringBoot
+- Spring MVC
+- Spring Data
+- Spring Security
+- Spring Rest
 
 ## Lesson Steps
 >Spring MVC
