@@ -8,9 +8,9 @@ import java.util.logging.Logger;
 
 @Controller
 public class PostConstructorTutorials {
-    @Autowired
+    /*@Autowired
     Logger LOG;
-
+*/
 
     //Post Constructorı olmadığı için Log nesnesi çağırıldığında null pointer exception alınıyor.
     /*public PostConstructorTutorials() {
@@ -19,7 +19,7 @@ public class PostConstructorTutorials {
 
 
     //Bir bean nesnesi oluştuğunda hemen oluşur.Boylede inject (Autowired) işlemi hatasız gerçekleşir.)
-    @PostConstruct
+   /* @PostConstruct
     public void init(){
         LOG.info("Log info çağırıldı");
     }
@@ -27,5 +27,6 @@ public class PostConstructorTutorials {
     public static void main(String[] args) {
         PostConstructorTutorials postConstructorTutorials = new PostConstructorTutorials();
         System.out.println(postConstructorTutorials);
-    }
+    }*/
+    //Spring loging işlemi beklediği için çalışmıyor o yüzden kapattım.
 }
