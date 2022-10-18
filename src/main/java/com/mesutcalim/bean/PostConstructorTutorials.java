@@ -1,4 +1,4 @@
-package com.mesutcalim.controller;
+package com.mesutcalim.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
