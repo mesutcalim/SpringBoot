@@ -1,4 +1,4 @@
-package com.mesutcalim.entity;
+package com.mesutcalim.data.entity;
 
 import lombok.Getter;
 import lombok.Setter;

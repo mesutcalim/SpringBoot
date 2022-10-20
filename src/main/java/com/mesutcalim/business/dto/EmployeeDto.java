@@ -1,4 +1,4 @@
-package com.mesutcalim.dto;
+package com.mesutcalim.business.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

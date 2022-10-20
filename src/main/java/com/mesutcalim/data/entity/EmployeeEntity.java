@@ -1,6 +1,5 @@
-package com.mesutcalim.entity;
+package com.mesutcalim.data.entity;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
