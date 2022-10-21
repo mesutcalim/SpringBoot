@@ -16,6 +16,7 @@ public interface EmployeeServices {
     public ResponseEntity<EmployeeDto> updateEmployee(Long id, EmployeeDto employeeDto) throws Throwable;
     public ResponseEntity<Map<String,Boolean>> deleteEmployee(Long id) throws Throwable;
 
+
     //Model Mapper
     public EmployeeDto entityToDto(EmployeeEntity employeeEntity);
     public EmployeeEntity dtoToEntity(EmployeeDto employeeDto);
