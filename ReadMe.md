@@ -1,20 +1,33 @@
-# SpringBoot
-
-- Java 19
-- SpringBoot
+# Kodluyoruz
+- Java 17
+- Spring Framework
+- Spring Boot
 - Spring MVC
 - Spring Data
+- Spring Rest (http status)
 - Spring Security
-- Spring Rest
+
+---
+
+## System Login
+> Register
+> Login (username+password)
+> Authorization(Jwt)
+
+---
 
 ## Lesson Steps
->Spring MVC
-> 
+> Spring Framework
+> Spring Boot
+> Spring MVC
+> Spring Data (Jpa Hibernate)
+> Spring Rest ( RestFull ==>Jersey)
+> Spring Security
 
+---
 
 ### Reference Documentation
-
-* [Github](https://github.com/mesutcalim/SpringBoot)
+* [GitHub](https://github.com/hamitmizrak/KodluyoruzSpringBoot)
 
 * [H2 console](http://localhost:8080/h2-console/l)
 
@@ -22,11 +35,40 @@
 
 ---
 
-```sh
-docker
+### Project Steps
+1. @Bean (ModelMapper)
+2. Dto
+3. BaseEntity (@MappedSuperclass)
+4. EmployeeEntity (@Entity)
+5. EmployeeRepository (@Repository)
+6. EmployeeServices (interface)
+7. EmployeeServiceImpl(@Service)
+8. ResourceNotFoundException(@ResponseStatus)
+9. EmployeeController(@RestController)
+
+---
+
+### Unit Test
+1. TestCrud (interface)
+2. @SpringBootTest
+
+---
+
+### Auditing
+1. AuditorAwareBean
+2. AuditorAwareImpl (implements AuditorAware)
+3. @SpringBootApplication
+
+
+---
+```sh 
+1. Deneme
+
 ```
 
 
+
+## Docker Deployment
 ```sh
 1.ADIM
 $     ./mvnw clean package -DskipTests
@@ -67,3 +109,4 @@ $    studentdb=#  select * from product
 $    studentdb=#  \q ==> ÇIKIŞ
 
 ```
+
